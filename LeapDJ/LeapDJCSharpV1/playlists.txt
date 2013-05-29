@@ -1,0 +1,9 @@
+String[] songNames = {  "Pearl Jam - Daughter.wav", 
+                                "Pearl Jam - Betterman.wav", 
+                                "Nirvana - Come as You Are.wav", 
+                                "Nickelback - Animals.wav"};
+
+String[] songNames = {  "pendulum - crush.mp3", 
+                                "pendulum - encoder.mp3", 
+                                "pendulum - under the waves.mp3", 
+                                "Pendulum - Watercolour.mp3"};

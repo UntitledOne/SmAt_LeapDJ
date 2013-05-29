@@ -1,0 +1,16 @@
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\bin\Debug\irrKlang Tester.exe
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\bin\Debug\irrKlang Tester.pdb
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.csprojResolveAssemblyReference.cache
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang_Tester.Form1.resources
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang_Tester.Properties.Resources.resources
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.csproj.GenerateResource.Cache
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.exe
+C:\Users\Patricia\Desktop\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.pdb
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.pdb
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\bin\Debug\irrKlang Tester.exe
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\bin\Debug\irrKlang Tester.pdb
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.csprojResolveAssemblyReference.cache
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang_Tester.Form1.resources
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang_Tester.Properties.Resources.resources
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.csproj.GenerateResource.Cache
+D:\Polytech\2013\Project\VirtualDJGitHub\LeapITVirtualDJ\irrKlang Tester\irrKlang Tester\obj\x86\Debug\irrKlang Tester.exe
