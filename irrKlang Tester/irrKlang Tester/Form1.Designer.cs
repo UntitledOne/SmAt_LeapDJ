@@ -39,10 +39,10 @@
             this.btnStopEffects = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdoDistortion = new System.Windows.Forms.RadioButton();
-            this.rdoEcho = new System.Windows.Forms.RadioButton();
-            this.rdoReverb = new System.Windows.Forms.RadioButton();
             this.rdoGargle = new System.Windows.Forms.RadioButton();
+            this.rdoReverb = new System.Windows.Forms.RadioButton();
+            this.rdoEcho = new System.Windows.Forms.RadioButton();
+            this.rdoDistortion = new System.Windows.Forms.RadioButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
@@ -76,7 +76,7 @@
             this.trackBar1.Location = new System.Drawing.Point(7, 178);
             this.trackBar1.Maximum = 100;
             this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(425, 56);
+            this.trackBar1.Size = new System.Drawing.Size(425, 45);
             this.trackBar1.TabIndex = 2;
             this.trackBar1.Value = 100;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
@@ -92,7 +92,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(199, 221);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 29);
+            this.label1.Size = new System.Drawing.Size(20, 23);
             this.label1.TabIndex = 3;
             this.label1.Text = "1";
             // 
@@ -101,7 +101,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(132, 150);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 29);
+            this.label2.Size = new System.Drawing.Size(129, 23);
             this.label2.TabIndex = 4;
             this.label2.Text = "Volume Control";
             // 
@@ -149,50 +149,51 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select an Effect";
             // 
-            // rdoDistortion
-            // 
-            this.rdoDistortion.AutoSize = true;
-            this.rdoDistortion.Location = new System.Drawing.Point(18, 48);
-            this.rdoDistortion.Name = "rdoDistortion";
-            this.rdoDistortion.Size = new System.Drawing.Size(132, 33);
-            this.rdoDistortion.TabIndex = 0;
-            this.rdoDistortion.TabStop = true;
-            this.rdoDistortion.Text = "Distortion";
-            this.rdoDistortion.UseVisualStyleBackColor = true;
-            // 
-            // rdoEcho
-            // 
-            this.rdoEcho.AutoSize = true;
-            this.rdoEcho.Location = new System.Drawing.Point(18, 87);
-            this.rdoEcho.Name = "rdoEcho";
-            this.rdoEcho.Size = new System.Drawing.Size(82, 33);
-            this.rdoEcho.TabIndex = 1;
-            this.rdoEcho.TabStop = true;
-            this.rdoEcho.Text = "Echo";
-            this.rdoEcho.UseVisualStyleBackColor = true;
-            // 
-            // rdoReverb
-            // 
-            this.rdoReverb.AutoSize = true;
-            this.rdoReverb.Location = new System.Drawing.Point(18, 126);
-            this.rdoReverb.Name = "rdoReverb";
-            this.rdoReverb.Size = new System.Drawing.Size(103, 33);
-            this.rdoReverb.TabIndex = 2;
-            this.rdoReverb.TabStop = true;
-            this.rdoReverb.Text = "Reverb";
-            this.rdoReverb.UseVisualStyleBackColor = true;
-            // 
             // rdoGargle
             // 
             this.rdoGargle.AutoSize = true;
             this.rdoGargle.Checked = true;
             this.rdoGargle.Location = new System.Drawing.Point(18, 165);
             this.rdoGargle.Name = "rdoGargle";
-            this.rdoGargle.Size = new System.Drawing.Size(98, 33);
+            this.rdoGargle.Size = new System.Drawing.Size(78, 27);
             this.rdoGargle.TabIndex = 3;
             this.rdoGargle.TabStop = true;
             this.rdoGargle.Text = "Gargle";
             this.rdoGargle.UseVisualStyleBackColor = true;
+            // 
+            // rdoReverb
+            // 
+            this.rdoReverb.AutoSize = true;
+            this.rdoReverb.Location = new System.Drawing.Point(18, 126);
+            this.rdoReverb.Name = "rdoReverb";
+            this.rdoReverb.Size = new System.Drawing.Size(82, 27);
+            this.rdoReverb.TabIndex = 2;
+            this.rdoReverb.TabStop = true;
+            this.rdoReverb.Text = "Reverb";
+            this.rdoReverb.UseVisualStyleBackColor = true;
+            // 
+            // rdoEcho
+            // 
+            this.rdoEcho.AutoSize = true;
+            this.rdoEcho.Location = new System.Drawing.Point(18, 87);
+            this.rdoEcho.Name = "rdoEcho";
+            this.rdoEcho.Size = new System.Drawing.Size(65, 27);
+            this.rdoEcho.TabIndex = 1;
+            this.rdoEcho.TabStop = true;
+            this.rdoEcho.Text = "Echo";
+            this.rdoEcho.UseVisualStyleBackColor = true;
+            // 
+            // rdoDistortion
+            // 
+            this.rdoDistortion.AutoSize = true;
+            this.rdoDistortion.Location = new System.Drawing.Point(18, 48);
+            this.rdoDistortion.Name = "rdoDistortion";
+            this.rdoDistortion.Size = new System.Drawing.Size(106, 27);
+            this.rdoDistortion.TabIndex = 0;
+            this.rdoDistortion.TabStop = true;
+            this.rdoDistortion.Text = "Distortion";
+            this.rdoDistortion.UseVisualStyleBackColor = true;
+            this.rdoDistortion.CheckedChanged += new System.EventHandler(this.rdoDistortion_CheckedChanged);
             // 
             // statusStrip1
             // 
@@ -217,7 +218,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(991, 388);
             this.Controls.Add(this.panel2);

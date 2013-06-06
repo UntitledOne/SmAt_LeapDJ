@@ -62,5 +62,10 @@ namespace irrKlang_Tester
         {
             irrKlangObject.StopSoundEffects();
         }
+
+        private void rdoDistortion_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

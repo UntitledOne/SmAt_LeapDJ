@@ -148,7 +148,7 @@ namespace LeapWindowsFormCSharp
                             if (volume < 0) { volume = 0; }
                         }
                         float newVolume = (float)(volume / 100.0);
-                        song.SetVolume(newVolume);
+                        setVolume(Convert.ToInt32(newVolume));
 
                         //volumeLabel.Text = Convert.ToString(newVolume);
                         break;
